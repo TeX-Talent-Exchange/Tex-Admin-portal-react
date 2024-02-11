@@ -1,0 +1,1066 @@
+@card-head-fontsize: 1rem;
+@sm-font-size: 0.7rem;
+@icon-font-size: 0.9rem;
+@sm-button-height: 24px;
+@sm-button-padding: 0 12px;
+@sm-lineheight: 20px;
+@light-gray: #ccc;
+@bottom-gutter: 15px;
+
+/* Global Styles and needs to be added on Theme style sheets
+---------------------------------------------------------------------- */
+input, button, select, optgroup, textarea{font-size:12px;}
+.ant-layout-header{height:40px !important;}
+.ant-menu-item-group-title {display:none !important;}
+.gx-sidebar-content {padding-top:10px !important;}
+.gx-main-content-wrapper{padding:20px 20px 0 !important;}
+.gx-sidebar-content .gx-layout-sider-scrollbar {
+    height: calc(100vh - 15vh) !important;
+}
+.text-center {
+    text-align:center !important;
+}
+.mtb-0 {margin-top:0px!important; margin-bottom:0px !important;}
+.mt-10 {margin-top:10px !important;}
+.mb-0 {margin-bottom:0 !important;}
+.mb-20 {margin-bottom:20px !important;}
+.mlr-15 {
+    padding: 0 15px !important;
+}
+.gx-header-notifications {
+	padding-top:0px !important;
+}
+.gx-header-notifications > li {
+	font-size: @sm-font-size !important;
+	position: relative !important;
+	right:15px !important;
+}
+.gx-header-notifications > li .icon{
+	font-size: @icon-font-size !important;
+}
+.gx-header-notifications > li .icon.icon-chevron-down {
+	line-height: 20px !important;
+    top: 0 !important;
+	position: absolute !important;
+}
+.gx-header-notifications > li .icon.icon-avatar {
+	padding-right:10px !important;
+	float:left !important;
+}
+.gx-header-notifications > li .gx-avatar-name{
+	margin-top: 2px !important;
+	float:left !important;
+}
+.ucip-notification.gx-header-notifications > li:not(:last-child){margin-right:20px !important;}
+.gx-user-popover li {
+    font-size: @sm-font-size !important;
+    line-height: @sm-lineheight !important;
+}
+.gx-user-popover li a {
+    color: #333;
+    padding: 0;
+}
+.gx-header-notifications > li:not(:last-child) {
+    margin-right: 30px !important;
+}
+/* Dashboard Styles
+--------------------------- */
+.dashboard360 {
+	p {
+		font-size: @sm-font-size;
+		margin: 10px 0;
+	}
+
+	.search-widget {        
+            margin-left: 0;
+            margin-right: 0;
+		.ant-card-body {
+			margin: 0 10px;
+		}
+	}
+	.gx-card-body {
+		padding: 15px 10px;
+	}
+	.gx-card {
+		.ant-card-body {
+			padding: 15px 10px;
+		}
+		margin-bottom: @bottom-gutter;
+		.ant-card-head {
+			padding: 0 15px;
+		}
+	}
+	.gx-card-widget {
+		box-shadow: none;
+		height:280px;		
+		.ant-card-body {
+			padding: 15px 10px;
+		}
+		.ant-card-head {
+			padding: 15px 15px 0;
+		}
+		.data-view {
+			max-height: 212px;
+		}		
+	}
+	.gx-header-notifications {
+		>li {
+			font-size: 14px;
+			&:not(:last-child) {
+				margin-right: 30px;
+			}
+		}
+	}
+	.gx-text-grey {
+		font-weight: 500;
+	}
+	p.gx-text-grey {
+		&:first-child {
+			padding-top: 0px;
+			margin-top: 0;
+		}
+	}	
+	.gx-avatar {
+		width: 30px;
+		height: 30px;
+	}
+	.ant-form-item-control-wrapper {
+		padding: 0 15px;
+	}
+	.search-btn {
+		.ant-form-item-control-wrapper {
+			padding-left: 0px;
+		}
+	}
+	.ant-card {
+		margin-bottom: @bottom-gutter;
+	}
+	
+	.ant-card-head-title {
+		padding: 0;
+		font-weight: 500;
+		line-height: 1.2;
+		text-transform: capitalize;
+		color: #262626;
+		font-size: @card-head-fontsize;
+		white-space: unset;
+	}
+	.ant-form {		
+		label {
+			font-size: @sm-font-size;
+			display: inline-block;
+			text-align: left;
+			padding: 0;
+			vertical-align: text-top;
+		}
+	}
+	label {
+		word-wrap: break-word;
+	}
+	label[name="divider"] {
+		width: 8px;
+	}
+	label[name="Key"] {
+		width: 43%;
+	}
+	label[name="Value"] {
+		width: 51%;
+	}
+	.ucip-exist-account-dropdown {
+		.ant-form-item {
+			margin-bottom: 0px;
+			.ant-col {
+				padding: 0 15px;
+			}
+			.ant-select {
+				font-size: @sm-font-size;
+			}
+			.ant-form-item-control {
+				line-height: 30px;
+			}
+			.ant-form-item-label {
+				text-align: left;
+				line-height: 30px;
+				height:30px;
+				font-size: @sm-font-size;
+				label {
+					font-size: @sm-font-size;
+				}
+			}
+		}
+		.dropbox {
+			height: 180px;
+			line-height: 1.5;
+			font-size: @sm-font-size;
+		}
+	}
+	.ant-col-data {
+		.ant-col.ucip-exist-account-panel {
+			border-left: 1px solid @light-gray;
+			padding-left: 12px;
+		}
+		.ant-col {
+			padding-left: 10px;
+			padding-right: 10px;
+		}
+	}
+	.gx-form-group {
+		margin-bottom: 5px;
+	}
+	.ucip-search-btn.ant-input-search {
+		margin-bottom: 0;
+		max-width: 26%;
+		margin-top: 2px;
+		margin-left:3px;
+		font-size: @sm-font-size;		
+		.ant-input {
+            font-size: @sm-font-size;
+            height: @sm-button-height;
+		}
+	}
+	.ucip-search {
+		.ant-radio-wrapper {
+			margin: 5px 0;
+			font-size: @sm-font-size;
+		}		
+	}
+	.ant-select-dropdown {
+		.ant-select-dropdown-menu-item {
+			font-size: @sm-font-size;
+		}
+	}
+	.ant-btn {
+		margin-bottom: 0px;
+		line-height: 1;		
+	}
+	.search-widget .ant-btn-sm.ant-input-search-button{width:80px;}
+	.ant-btn-sm {
+		line-height: 20px;
+	}	
+	.ucip-btn-group {
+		margin-top: 5px;
+		display: inline-block;
+		text-align: center;
+		box-sizing: border-box;
+		width: 100%;
+		margin-bottom: 5px;
+	}
+	.data-view {
+		padding: 0 15px;
+		position: relative;
+		max-height:275px;/*268*/
+		overflow: hidden;
+	}
+	.address-widget {
+		label[name="Key"] {
+			width: 35%;
+		}
+		label[name="Value"] {
+			width: 59%;
+		}
+		.gx-text-grey {
+			padding-top: 10px;
+			padding-bottom: 10px;
+			font-size: 13px;
+			letter-spacing: 0.3px;
+			color: #262626 !important;
+			font-weight: 500;	
+		}
+		p.gx-text-grey {			
+			&:first-child {
+				padding-top: 0px;
+			}		
+		}
+		p {
+			margin: 0;
+		}
+	}
+	.interaction-widget, .case-widget {
+		label[name="Key"] {
+			width: 30%;
+		}
+		label[name="Value"] {
+			width: 65%;
+		}
+		.widget-icon {   
+			float:left;
+			margin-top: -2px;
+			width: 12px;	
+		}
+
+		.title-response {
+			display: inline-block;
+			vertical-align: text-top;
+			width: 92%;
+			padding-left: 10px;
+			font-size: @sm-font-size;
+			line-height: 1.1;
+		}
+	}
+	.pdpa-widget {
+		label[name="Key"] {
+			width: 55%;
+		}
+		label[name="Value"] {
+			width: 44%;
+		}
+	} 
+	.lead-module {
+		label[name="Key"] {
+			width: 20%;
+		}
+		label[name="Value"] {
+			width: 75%;
+		}
+		.lead-config {
+			label[name="Key"] {
+				width: 40%;
+			}
+			label[name="Value"] {
+				width: 55%;
+			}	
+		}
+		.lead-order-details-panel {
+			label[name="Key"] {
+				width: 30%;
+			}
+			label[name="Value"] {
+				width: 65%;
+			}
+		}
+	}
+	.ant-select-single .ant-select-selector .ant-select-selection-placeholder {
+		line-height: 22px;
+	}
+	.focused .ant-select-selector{
+		border-color: #40a9ff;
+		border-right-width: 1px!important;
+		outline: 0;
+		box-shadow: 0 0 0 2px rgb(24 144 255 / 20%);
+	}
+	.ant-divider {
+		font-size: @sm-font-size;
+		margin: 12.5px 0;
+	}
+	.ant-divider-horizontal.ant-divider-with-text-center {
+		font-size: @sm-font-size;
+	}
+	.ant-divider-horizontal.ant-divider-with-text-left {
+		font-size: @sm-font-size;
+	}
+	.ant-divider-horizontal.ant-divider-with-text-right {
+		font-size: @sm-font-size;
+	}
+	.ant-timeline-item-head-custom {
+		top: 18.5px;
+	}
+	.ant-avatar-string {
+		transform: scale(1) translateX(-50%);
+	}
+	.ant-timeline-item-last {
+		>.ant-timeline-item-content {
+			min-height: 20px;
+		}
+	}
+	.ant-timeline-item {
+		&:not(:last-child) {
+			padding-bottom: 0px;
+		}
+	}
+	.gx-link {
+		font-size: @sm-font-size;
+		float: right;		
+	}
+	.gx-list-inline {
+		margin-top: -5px;
+	}
+	.ant-billing-bar {
+		.gx-card-widget {
+			.ant-card-body {
+				padding: 15px 0px;
+			}
+		}
+	}
+	.gx-revenu {
+		padding: 0;
+	}
+	form.ant-billing-bar {
+		margin-bottom: -30px;
+	}
+	.ant-switch {
+		margin-left: 0px;
+	}
+	.ant-tabs-bar {
+        margin-bottom: 10px;
+        margin-left: -5px;
+	}
+	.ant-tabs {
+		padding: 0 15px;
+		font-size: @sm-font-size;
+        line-height:1.3;
+        width:100%;
+        flex:0 0 100%;
+	}
+	.ant-tabs.ant-tabs-card {
+		.ant-tabs-card-bar {
+			.ant-tabs-nav-container {
+				font-size: @sm-font-size;
+				line-height: 1.3;
+				height: 30px;
+			}
+			.ant-tabs-tab {
+				height: 30px;
+				line-height: 28px;
+			}
+			.ant-tabs-tab-active {
+				height: 30px;
+				line-height: 28px;
+			}
+		}
+	}
+	.ant-tabs-card {
+		>.ant-tabs-nav {
+			.ant-tabs-tab {
+				padding: 5px 10px;
+			}
+		}
+		>div {
+			>.ant-tabs-nav {
+				.ant-tabs-tab {
+					padding: 5px 10px;
+				}
+			}
+		}
+	}
+	.ant-tabs-top {
+		>.ant-tabs-nav {
+			margin-bottom: 10px;
+			margin-left: -5px;
+		}
+	}
+	.ant-tabs-tab-btn {
+		font-size: @sm-font-size;
+	}
+	.cust360-widget .ant-empty-normal {
+		margin-top: 25%;
+	}
+	/* Widget custom Styles
+	.bill-summary-widget {
+		height: 200px;
+	}*/
+	.ucip-widget-content {
+		box-shadow: none;
+	}
+	.ant-table-column-sorters {
+		padding: 6px 7px;
+	}
+	.ant-select-single.ant-select-sm:not(.ant-select-customize-input) .ant-select-selector .ant-select-selection-placeholder{
+		line-height: 30px;
+	}
+	.ant-form label{
+		line-height:1.2;
+	}
+}
+/* Cases Styles
+---------------------------------------- */
+.ucip-case-details, .ucip-lead-details {
+	width: 100%;
+	label {
+		word-wrap: break-word;
+		font-size: 0.7rem;
+		display: inline-block;
+		text-align: left;
+		padding: 0;
+		vertical-align: text-top;
+	}	
+	.ant-card {
+		padding:0px;
+	}
+	.gx-login-container {
+		padding-bottom:0px;
+	}
+}
+.ucip-widget-content.case-table-list, .ucip-widget-content.case-detail-table-list, .ucip-widget-content.table-list {
+	max-width: 100%;
+    width: 100%;	
+}
+.ant-collapse-content-box .ant-card-body {
+	padding:0 !important;
+}
+.ant-table-pagination.ant-pagination {
+	margin-bottom:0px;
+}
+.ant-collapse-content-box .ant-table-pagination.ant-pagination {
+	margin-bottom:0px;
+}
+.ant-collapse-content-box .ant-table-pagination.ant-pagination > li{
+	margin-bottom:0px;
+}
+.ant-pagination-item-container {
+    margin-top: -20px;
+}
+.case-detail-table-list .gx-form-group:last-child {
+    margin-bottom: 0;
+}
+.ucip-widget-content.case-table-list .ant-table td a, .ucip-widget-content.case-table-list .ant-table td span.link {
+    color: #28aaeb;
+	cursor: pointer;
+}
+.widget-icon+div.custom-link {
+    display: inline;
+	color: #333;
+}
+.interaction-list .ant-table-tbody>tr>td, .interaction-list .ant-table-thead>tr>th {
+	word-break: break-word;
+}
+.credit-history-tbl {margin-top:20px;}
+
+.dark-theme {
+	.ant-card-head-title {
+		color: #E0E0E0 !important;
+	}
+	.data-view {
+		color: #E0E0E0;
+	}
+	.dashboard360 p {
+		color: #E0E0E0;
+	}
+	.ant-empty-description {
+		color: #e0e0e0;
+	}
+	.widget-icon+div.custom-link{
+		color:#e0e0e0;
+	}
+}
+
+.ant-layout-sider .ant-menu .ant-menu-submenu .ant-menu-submenu-title .icon,
+.ant-drawer .ant-menu .ant-menu-submenu .ant-menu-submenu-title .icon,
+.ant-layout-sider .ant-menu .ant-menu-item .icon,
+.ant-drawer .ant-menu .ant-menu-item .icon {
+	font-size:14px;
+}
+.ant-layout-sider .ant-menu-submenu > .ant-menu.ant-menu-sub .ant-menu-item,
+.ant-drawer .ant-menu-submenu > .ant-menu.ant-menu-sub .ant-menu-item {
+    padding-left: 40px !important;
+}
+.ant-layout-sider .ant-menu-vertical .ant-menu-item,
+.ant-layout-sider .ant-menu-vertical-left .ant-menu-item,
+.ant-layout-sider .ant-menu-vertical-right .ant-menu-item,
+.ant-layout-sider .ant-menu-inline .ant-menu-item,
+.ant-layout-sider .ant-menu-vertical .ant-menu-submenu-title,
+.ant-layout-sider .ant-menu-vertical-left .ant-menu-submenu-title,
+.ant-layout-sider .ant-menu-vertical-right .ant-menu-submenu-title,
+.ant-layout-sider .ant-menu-inline .ant-menu-submenu-title, 
+.ant-drawer .ant-menu-vertical .ant-menu-item,
+.ant-drawer .ant-menu-vertical-left .ant-menu-item,
+.ant-drawer .ant-menu-vertical-right .ant-menu-item,
+.ant-drawer .ant-menu-inline .ant-menu-item,
+.ant-drawer .ant-menu-vertical .ant-menu-submenu-title,
+.ant-drawer .ant-menu-vertical-left .ant-menu-submenu-title,
+.ant-drawer .ant-menu-vertical-right .ant-menu-submenu-title,
+.ant-drawer .ant-menu-inline .ant-menu-submenu-title {
+    padding-left: 30px !important;
+}
+.ant-drawer .ant-menu-submenu>.ant-menu.ant-menu-sub .ant-menu-item, .ant-layout-sider .ant-menu-submenu>.ant-menu.ant-menu-sub .ant-menu-item{
+	padding-left: 30px !important;	
+}
+.gx-app-sidebar .ant-menu-submenu-vertical > .ant-menu-submenu-title .ant-menu-submenu-arrow,
+.gx-app-sidebar .ant-menu-submenu-vertical-left > .ant-menu-submenu-title .ant-menu-submenu-arrow,
+.gx-app-sidebar .ant-menu-submenu-vertical-right > .ant-menu-submenu-title .ant-menu-submenu-arrow,
+.gx-app-sidebar .ant-menu-submenu-inline > .ant-menu-submenu-title .ant-menu-submenu-arrow {
+	left: 10px !important;
+}
+.ant-menu-item i.icon {
+    margin-top: -3px;
+}
+/* CCC User menu style*/
+.ant-layout-sider .ant-menu-inline .user-menu .ant-menu-item {
+    padding-left: 24px !important;
+}
+.dashboard360 .ant-tabs {
+	position: relative;
+}
+.dashboard360 .ant-tabs-top > .ant-tabs-nav {
+	// width: ~"calc(100% - 425px)"; // with Sms Status
+	width: ~"calc(100% - 332px)";
+}
+#tab-right-col {
+	&.sms-wrap-no{
+		 width: 332px;
+	//	width: 202px;
+	}
+	position: absolute;
+	right:15px;
+//	width: 425px; // for sms
+	width: 332px;  //for D+H Mobile 
+	.mobile-update{
+	//	display: none; //for D+H Mobile
+		float: left;
+		margin-left: 10px;
+	}
+	.sms-status{
+		float: left;
+		margin-left: 10px;
+		margin-right: 0;
+	}
+}
+.dashboard360 .ant-btn.dh-btn {
+    width: 100px;
+    float: left;
+    margin: 0;
+    margin-top: 0px;    
+
+	&.dh-btn-mobile{
+		width: 121px;
+	}
+}
+#tab-right-col .icons {
+    float: left;
+    width: 30px;
+    line-height: 35px;
+    font-size: 16px;
+    padding: 0px;
+    text-align: center;
+    border-radius: 100%;
+    border: 1px solid #545454;
+    height: 30px;
+    margin-right: 10px;
+}
+#tab-right-col .disney-icon {
+    float: left;
+    width: 35px;
+    line-height: 29px;
+    padding: 0px;
+    text-align: center;
+    border-radius: 100%;
+    border: 1px solid #545454;
+    height: 35px;
+    margin-right: 10px;
+	cursor: pointer;
+}
+.disney-form .ant-col.ant-form-item-label {
+    width: 150px;
+	margin-left: 5px;
+}
+.disney-form .mobile-field .ant-col.ant-form-item-label {
+	margin-top: 5px;
+	list-style: 20px;
+}
+.disney-form .mobile-field .ant-col.ant-form-item-control {
+	margin-top: 10px;
+}
+.disney-form .send-otp {
+	margin-left: 10px;
+    margin-top: 2px;
+    float: left;
+    line-height: 20px;
+}
+.disney-form .ott-pack-name {
+	background: #036;
+    padding: 5px 10px;
+    border-radius: 6px;
+    padding-left: 10px;
+    color: #fff;
+}
+.disney-plus-model .ant-modal-header {
+	color: #fff;
+    background: steelblue;
+}
+.disney-plus-model .ant-modal-header .ant-modal-title {
+	color: #fff;
+}
+.disney-plus-model .ant-btn:not(:last-child) {
+    margin-right: 5px;
+}
+.disney-plus-model .ant-btn-primary, .disney-plus-model .ant-btn-primary:not([disabled]):not(.disabled):active, .disney-plus-model .ant-btn-primary:not([disabled]):not(.disabled).active {
+	color: #fff;
+	background: #e6007d;
+	border-color: #e6007d;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.12);
+	box-shadow: 0 2px 0 rgba(0, 0, 0, 0.045);
+	color: #ffffff !important;
+	background-color: #e6007d !important;
+	border-color: #e6007d !important;
+}
+.disney-plus-model .ant-btn-primary.send-otp, .disney-plus-model .ant-btn-primary.send-otp:not([disabled]):not(.disabled):active, .disney-plus-model .ant-btn-primary.send-otp:not([disabled]):not(.disabled).active {
+	color: #fff;
+	background: #038fde;
+	border-color: #038fde;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.12);
+	box-shadow: 0 2px 0 rgba(0, 0, 0, 0.045);
+	color: #ffffff !important;
+	background-color: #038fde !important;
+	border-color: #038fde !important;
+}
+.disney-plus-model .ant-modal-close-x{color: #fff;}
+.disney-plus-model .ant-form-item-explain.ant-form-item-explain-error {margin-top:-10px;}
+
+#tab-right-col .icons:hover {border-color: #28aaeb;}
+#tab-right-col .existing-account {
+	float:right;
+	width: auto;
+	margin-left: 10px;
+}
+.existing-account .ant-select { float: right;}
+iframe {
+	border:0px;
+}
+.col-link {
+	cursor: pointer;
+	color: #28aaeb;
+}
+.ucip-widget-content a:not(:last-child) .ant-btn {
+    margin-right: 15px;
+}
+.ucip-widget-content.lead-order-packages {
+	width:100%;
+	max-width:100%;
+}
+
+.ucip-widget-content.credit-active-tbl, .ucip-widget-content.credit-history-tbl {
+    max-width: 100%;
+}
+
+/* Tabs Components Styles
+-------------------------------------------------------- */
+.widget-tab {margin-left: -5px;}
+.dashboard360 .widget-tab label[name="Key"]{
+	width:12%;
+}
+.dashboard360 .widget-tab label[name="Value"]{
+	width:87%;
+}
+.dashboard360 .widget-tab .gx-card-widget {
+    height: auto;
+}
+.dashboard360 .widget-tab .data-view {
+    height: auto;
+    max-height: 100%;
+}
+.dashboard360 .widget-tab .gx-dot-arrow {
+	display:none;
+}
+.dashboard360 .widget-tab .ant-empty-normal {
+	margin-top: 32px;
+}
+.dashboard360 .portal-account-widget .data-view {
+    padding: 0;
+}
+.dashboard360 .portal-account-widget .border-box {
+    border: 1px solid #ccc;
+    padding: 15px;
+    padding-bottom: 10px;
+	min-height:150px;
+}
+.dashboard360 .portal-account-widget {
+    height: 255px;
+}
+.dashboard360 .portal-account-widget label[name="Key"] {
+    width: 30%;
+}
+.dashboard360 .portal-account-widget label[name="Value"] {
+    width: 68%;
+}
+.dashboard360 .cust360-widget .portal-account-widget .ant-empty-normal {
+    margin: auto;
+}
+.dashboard360 .widget-tab .sms-subscription-group {
+    padding: 5px 15px;
+}
+.dashboard360 .data-view.with-pkg {
+    height: 71px;
+}
+.dashboard360 .gx-card-widget.subscription-widget .data-view.no-pkg {
+    height: 202px;
+}
+.gx-card-widget.keyfields-widget .ant-col {
+    display: table;
+}
+.gx-card-widget.keyfields-widget .data-view {
+    display: table-cell;   
+    height: 255px;
+    vertical-align: middle;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+}
+.dashboard360 .gx-card-widget.subscription-widget .package-info p {
+    padding: 0 10px;
+    height: 72px;
+    overflow: hidden;
+    text-align: center;
+}
+.dashboard360 .gx-card-widget.subscription-widget .ott-info{
+	text-align: center;
+}
+.dashboard360 .gx-card-widget.subscription-widget .ott-info .ant-btn {
+	height: 25px;
+	line-height: 1;
+	letter-spacing: 0.6px;
+	cursor: pointer;
+}
+.dashboard360 .widget-tab .sms-subscription-group label[name="Key"] {
+    width: 30%;
+}
+.dashboard360 .widget-tab .sms-subscription-group label[name="Value"] {
+    width: 65%;
+}
+.dashboard360 .lead-overview-details-panel {width:100%;max-width: 100%;}
+.dashboard360 .lead-overview-details-panel .data-view {
+    max-height: unset;
+}
+.dashboard360 .lead-module .ant-tabs-top > .ant-tabs-nav {
+    width: 82%;
+}
+.dashboard360 .lead-module .data-view {
+	max-height:100%;
+}
+.ucip-lead-details .ant-collapse {
+	margin-bottom: 10px;
+}
+.lead-module .ant-tabs-tab-remove {display: none;}
+.dashboard360 .lead-search .ucip-search {
+	padding-left:10px;
+}
+.select-name .ant-select-single:not(.ant-select-customize-input) .ant-select-selector {height:26px;}
+
+.select-name .ant-select-single:not(.ant-select-customize-input) .ant-select-selector .ant-select-selection-search-input {
+	height:26px;
+	line-height: 26px;
+}
+.ant-collapse {font-size: @sm-font-size;}
+
+/* Audit Logs
+-------------------------------------- */
+.ucip-widget-content.audit-logs, .ucip-widget-content.page-view-widget {
+    max-width: 100%;
+    width: 100%;
+}
+.ucip-widget-content .ant-picker-range {
+	height:30px;
+	margin-top: 3px;
+	margin-right:8px;
+}
+.ucip-widget-content .ant-table-thead th.ant-table-column-has-sorters {
+    padding: 0px 5px;
+}
+.ant-table-filter-dropdown .ant-input {
+	height: 30px;
+    padding: 6px 12px;
+    font-size: 12px;
+}
+.dashboard360 .gx-card-widget.credit-redemption-widget {
+    height: 255px;
+}
+.dashboard360 .credit-redemption-widget label[name="Key"] {
+    width: 30%;
+}
+.dashboard360 .credit-redemption-widget .border-box {
+    border: 1px solid #ccc;
+    padding: 15px;
+    padding-bottom: 10px;
+	min-height:150px;
+}
+.dashboard360 .cust360-widget .credit-redemption-widget .ant-empty-normal {
+    margin-top: 10%;
+}
+.gx-customizer-option{display: none;}
+.spin-center {
+	margin: 20px 0;
+	margin-bottom: 20px;
+	padding: 45px 50px;
+	text-align: center;
+	border-radius: 4px;
+  }
+.ant-collapse-header {
+	font-weight: 600;
+	letter-spacing: 0.6px;
+}
+th.ant-table-cell {
+	font-weight: 600 !important;
+	letter-spacing: 0.6px;
+}
+
+  thead.ant-table-thead tr th {
+	background: #226d8e !important;
+	color: #fafafa;
+  }
+  .ant-table-tbody > tr.ant-table-row:nth-child(even){
+	background:#fafafa !important;
+	td.ant-table-cell.ant-table-cell-fix-left, td.ant-table-cell.ant-table-cell-fix-right{
+	  background:#fafafa !important;
+	}
+  }
+  .ant-table-column-sorter {color:#fafafa;}
+  .netflix-history .ant-card-meta-title{
+	  color: #262626;
+	  padding: 20px 0;
+  }
+  .dashboard360 .gx-card-widget .transaction-info{
+	  text-align: center;
+	  margin-top: 10px;
+  }
+  .dashboard360 .widget-tab .transaction-info {
+    display: none;
+}
+.transaction-search .ucip-search-btn .ant-btn {
+		padding: 4px 14px !important;
+		height: 24px;
+}
+.transaction-search {
+	margin-bottom: 30px;
+}
+  .gx-loader-position {
+	&.enable-nav{
+		top: 40px;
+	}
+  }
+.mesh-note {
+    background: #e6f7ff;
+    border: 1px solid #91d5ff;
+    font-size: 11px;
+    display: inline-block;
+    padding: 3px;
+    color: #1890ff;
+    border-radius: 5px;
+	margin-top: 10px;
+}
+.addons .pack-section .ant-tag-green{
+	display: none;
+}
+.sbbmode{
+	&.broadband, &.addons, &.packages{
+		.ant-collapse-content-box{
+			display: none;
+		}
+		.ant-collapse-extra{
+			pointer-events: none;
+		}
+	}
+}
+.ispsbbmode{
+	.ant-card-bordered {
+		border-bottom: 0;
+		border-left: 0;
+		border-right: 0;
+	}
+	.ant-collapse-content{
+		display: none;
+	}
+	.ant-collapse-header{
+		opacity: 0.5;
+		.anticon-minus{
+			display: none !important;
+		}
+	}
+}	
+.disney-plus-model{
+	.ant-modal-body{
+		position: relative;
+		.smcloader{
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			text-align: center;
+			top: 0;
+			left: 0;
+			background:rgba(0, 0, 0, 0.1);
+			cursor: not-allowed;
+		}
+		.smcloader span {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+		}
+	}	
+}
+  .align-center{text-align: center;}
+  .ant-table-thead .ant-table-column-sorters {
+	padding: 6px 7px;
+}
+.dashboard360 .widget-tab .account-widget label[name="Key"] {
+    text-transform: capitalize;
+}
+.query-details{
+	font-size: 11.2px;
+	label {
+		display: inline-block;
+		margin-bottom: 10px;
+		width: 100px;
+		
+	}
+	span{
+		margin-left: 25px;
+		display: inline-block;
+		text-transform: capitalize;
+	}
+} 
+.m-t-15{
+	margin-top: 15px;
+}
+.sizefilter {
+    position: absolute;
+    top: 25px;
+    right: 10px;
+    width: 120px;
+	label{
+		width: 50px;
+		font-size: 11.2px;
+		margin-right: 8px;
+	}
+	input{
+		width: 50px;
+	}
+	.ant-input-number {
+		width: 60px;
+	}
+}
+
+.stand-alone {
+	background: url(../../assets/images/bg_login-min.png) repeat;
+
+	&::after{
+		content: '';
+		background: url('../../assets/images/login-infograph.png') no-repeat;
+		height: 258px;
+		width: 370px;
+		position: absolute;
+		bottom: 0;
+		right: 0;
+		background-size: contain;
+		
+	}
+	.gx-app-logo-wid{
+		img{
+			max-width: 150px;
+			display: block;
+			margin: 0 auto 20px;
+		}
+	}
+	.gx-login-title{
+		color: rgb(144, 39, 243);
+		font-weight: 700;
+	}
+	.gx-signin-form{
+		.icon.icon-forgot-password{
+			display: none;
+		}
+		 .ant-form-item-control-input-content{
+			text-align: right;
+		}
+		.gx-text-center .ant-form-item-control-input-content{
+			text-align: center;
+		}
+	}
+}
+
+body input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active{
+    -webkit-box-shadow: 0 0 0 30px white inset !important;
+}
+.gx-layout-sider-header .gx-site-logo{
+	background-color: @white;
+	padding: 5px;
+}

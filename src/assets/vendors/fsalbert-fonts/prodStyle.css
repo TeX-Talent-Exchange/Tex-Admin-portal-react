@@ -1,0 +1,65 @@
+@font-face {
+    font-family:'FS Albert';
+    src:url('https://ucip-assets-prod.s3-ap-southeast-1.amazonaws.com/fonts/fsalbert_thin-webfont.eot');
+    src:url('https://ucip-assets-prod.s3-ap-southeast-1.amazonaws.com/fonts/fsalbert_thin-webfont.eot?#iefix') format('embedded-opentype'),
+    url('https://ucip-assets-prod.s3-ap-southeast-1.amazonaws.com/fonts/fsalbert_thin-webfont.woff') format('woff'),
+    url('https://ucip-assets-prod.s3-ap-southeast-1.amazonaws.com/fonts/fsalbert_thin-webfont.ttf') format('truetype'),url('https://ucip-assets-prod.s3-ap-southeast-1.amazonaws.com/fonts/fsalbert_thin-webfont.svg#FSAlbertThin') format('svg');
+    font-weight:100;font-style:normal;
+}
+ @font-face {
+     font-family:'FS Albert';
+     src:url('https://ucip-assets-prod.s3-ap-southeast-1.amazonaws.com/fonts/fsalbert_light-webfont.eot');
+     src:url('https://ucip-assets-prod.s3-ap-southeast-1.amazonaws.com/fonts/fsalbert_light-webfont.eot?#iefix') format('embedded-opentype'),url('https://ucip-assets-prod.s3-ap-southeast-1.amazonaws.com/fonts/fsalbert_light-webfont.woff') format('woff'),url('https://ucip-assets-prod.s3-ap-southeast-1.amazonaws.com/fonts/fsalbert_light-webfont.ttf') format('truetype'),
+     url('https://ucip-assets-prod.s3-ap-southeast-1.amazonaws.com/fonts/fsalbert_light-webfont.svg#FSAlbertLight') format('svg');
+     font-weight:300;font-style:normal;
+    }
+ @font-face {
+     font-family:'FS Albert';
+     src:url('https://ucip-assets-prod.s3-ap-southeast-1.amazonaws.com/fonts/fsalbert_regular-webfont.eot');
+     src:url('https://ucip-assets-prod.s3-ap-southeast-1.amazonaws.com/fonts/fsalbert_regular-webfont.eot?#iefix') format('embedded-opentype'),url('https://ucip-assets-prod.s3-ap-southeast-1.amazonaws.com/fonts/fsalbert_regular-webfont.woff') format('woff'),
+     url('https://ucip-assets-prod.s3-ap-southeast-1.amazonaws.com/fonts/fsalbert_regular-webfont.ttf') format('truetype'),url('https://ucip-assets-prod.s3-ap-southeast-1.amazonaws.com/fonts/fsalbert_regular-webfont.svg#FSAlbertRegular') format('svg');
+     font-weight:normal;font-style:normal;
+    }
+ @font-face {
+     font-family:'FS Albert Bold';
+     src:url('https://ucip-assets-prod.s3-ap-southeast-1.amazonaws.com/fonts/fsalbert_bold-webfont.eot');
+     src:url('https://ucip-assets-prod.s3-ap-southeast-1.amazonaws.com/fonts/fsalbert_bold-webfont.eot?#iefix') format('embedded-opentype'),
+     url('https://ucip-assets-prod.s3-ap-southeast-1.amazonaws.com/fonts/fsalbert_bold-webfont.woff') format('woff'),url('https://ucip-assets-prod.s3-ap-southeast-1.amazonaws.com/fonts/fsalbert_bold-webfont.ttf') format('truetype'),url('https://ucip-assets-prod.s3-ap-southeast-1.amazonaws.com/fonts/fsalbert_bold-webfont.svg#FSAlbertBold') format('svg');
+     font-weight:600;font-style:normal;
+    }
+	
+ @font-face {
+	font-family:'FS Albert Pro';
+	src:url('https://ucip-assets-prod.s3-ap-southeast-1.amazonaws.com/fonts/fs_albert_pro-webfont.eot');
+	src:url('https://ucip-assets-prod.s3-ap-southeast-1.amazonaws.com/fonts/fs_albert_pro-webfont.eot?#iefix') format('embedded-opentype'),url('https://ucip-assets-prod.s3-ap-southeast-1.amazonaws.com/fonts/fs_albert_pro-webfont.woff') format('woff'),url('https://ucip-assets-prod.s3-ap-southeast-1.amazonaws.com/fonts/fs_albert_pro-webfont.ttf') format('truetype'),url('https://ucip-assets-prod.s3-ap-southeast-1.amazonaws.com/fonts/fs_albert_pro-webfont.svg#FSAlbertPro') format('svg');
+	font-weight:100;
+	font-style:normal;
+}
+ @font-face {
+	font-family:'FS Albert Pro Light';
+	src:url('https://ucip-assets-prod.s3-ap-southeast-1.amazonaws.com/fonts/fs_albert_pro-light-webfont.eot');
+	src:url('https://ucip-assets-prod.s3-ap-southeast-1.amazonaws.com/fonts/fs_albert_pro-light-webfont.eot?#iefix') format('embedded-opentype'),url('https://ucip-assets-prod.s3-ap-southeast-1.amazonaws.com/fonts/fs_albert_pro-light-webfont.woff') format('woff'),url('https://ucip-assets-prod.s3-ap-southeast-1.amazonaws.com/fonts/fs_albert_pro-light-webfont.ttf') format('truetype'),url('https://ucip-assets-prod.s3-ap-southeast-1.amazonaws.com/fonts/fs_albert_pro-light-webfont.svg#FSAlbertProLight') format('svg');
+	font-weight:300;
+	font-style:normal;
+}
+ @font-face {
+	font-family:'FS Albert Pro Thin';
+	src:url('https://ucip-assets-prod.s3-ap-southeast-1.amazonaws.com/fonts/fs_albert_pro-thin-webfont.eot');
+	src:url('https://ucip-assets-prod.s3-ap-southeast-1.amazonaws.com/fonts/fs_albert_pro-thin-webfont.eot?#iefix') format('embedded-opentype'),url('https://ucip-assets-prod.s3-ap-southeast-1.amazonaws.com/fonts/fs_albert_pro-thin-webfont.woff') format('woff'),url('https://ucip-assets-prod.s3-ap-southeast-1.amazonaws.com/fonts/fs_albert_pro-thin-webfont.ttf') format('truetype'),url('https://ucip-assets-prod.s3-ap-southeast-1.amazonaws.com/fonts/fs_albert_pro-thin-webfont.svg#FSAlbertProThin') format('svg');
+	font-weight:normal;
+	font-style:normal;
+}
+ @font-face {
+	font-family:'FS Albert Pro Bold';
+	src:url('https://ucip-assets-prod.s3-ap-southeast-1.amazonaws.com/fonts/fs_albert_pro-bold-webfont.eot');
+	src:url('https://ucip-assets-prod.s3-ap-southeast-1.amazonaws.com/fonts/fs_albert_pro-bold-webfont.eot?#iefix') format('embedded-opentype'),url('https://ucip-assets-prod.s3-ap-southeast-1.amazonaws.com/fonts/fs_albert_pro-bold-webfont.woff') format('woff'),url('https://ucip-assets-prod.s3-ap-southeast-1.amazonaws.com/fonts/fs_albert_pro-bold-webfont.ttf') format('truetype'),url('https://ucip-assets-prod.s3-ap-southeast-1.amazonaws.com/fonts/fs_albert_pro-bold-webfont.svg#FSAlbertProBold') format('svg');
+	font-weight:600;
+	font-style:normal;
+}
+ @font-face {
+	font-family:'FS Albert Pro ExtraBold';
+	src:url('https://acmkentico-stg2.s3.amazonaws.com/acmkentico/media/astromain/fonts/fsalbert_extrabold-webfont.eot');
+	src:url('https://acmkentico-stg2.s3.amazonaws.com/acmkentico/media/astromain/fonts/fsalbert_extrabold-webfont.eot?#iefix') format('embedded-opentype'),url('https://acmkentico-stg2.s3.amazonaws.com/acmkentico/media/astromain/fonts/fsalbert_extrabold-webfont.woff') format('woff'),url('https://acmkentico-stg2.s3.amazonaws.com/acmkentico/media/astromain/fonts/fsalbert_extrabold-webfont.ttf') format('truetype');
+	font-weight:800;
+	font-style:normal;
+}
